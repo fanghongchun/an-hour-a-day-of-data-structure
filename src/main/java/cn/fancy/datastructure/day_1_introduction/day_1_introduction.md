@@ -36,15 +36,16 @@ $$2^N + 2^N = 2^{N+1}$$
 [对数-维基百科](https://zh.wikipedia.org/wiki/%E5%AF%B9%E6%95%B0)
 #### 在计算机科学中,除非有特别的声明,否则所有的对数都是以2为底的.
 
-$X^A = B$ 当且仅当 $log_xB=A$
+$A^x = B, A > 0, A \neq 1$ 当且仅当 $log_AB= x; A,B > 0, A \neq 1$
 
+### 对数中底数大于0 底数不为1, 作用域 x>0 有意义;
 由上面可知:
 
 $$log_AB=\frac{log_CB}{log_CA};A,B,C>0,A \neq 1, C \neq 1$$
 
 ### 证明:
 
-假设: $X = log_AB, Y = log_CA, Z = log_CB; A,C > 0, A \neq 1, C \neq 1$,
+假设: $X = log_AB, Y = log_CA, Z = log_CB; A,B,C > 0, A \neq 1, C \neq 1$,
 
 则:$B = A^X, A = C^Y,  B =C^Z; A,C > 0, A \neq 1, C \neq 1$
 
@@ -59,8 +60,6 @@ $$log_AB=\frac{log_CB}{log_CA};A,B,C>0,A \neq 1, C \neq 1$$
 $X=\frac{Z}{Y}, Y \neq 0$
 
 $log_AB=\frac{log_CB}{log_CA}; A,B,C>0, A \neq 1, C \neq 1$
-
-
 
 
 ### 级数
